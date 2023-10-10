@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h1{
+    color: white;
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    margin: auto;
+    padding: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.display{
+    grid-column: span 4;
+    height: 40px;
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.btn{
+    background-color: rgb(109, 110, 111);
+    color: white;
+    gap: 10px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 0px;
+    font-size: 25px;
+}
+
+.operador{
+    background-color: rgb(222, 114, 20);
+    color: white;
+    gap: 10px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.operadorCima{
+    background-color: lightgray;
+    color: black;
+    gap: 10px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 0px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.zero{
+    background-color: rgb(109, 110, 111);
+    color: white;
+    gap: 10px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    border: 0px;
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+.operador:hover{
+    background-color: blue;
+}
+.zero:hover{
+    background-color: blue;
+}
+.operadorCima:hover{
+    background-color: blue;
+}
